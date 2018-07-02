@@ -1,0 +1,193 @@
+Package: chip-mali-modules-4.4.138-chip
+Source: chip-mali (1.0-0-ntc-0)
+Version: 1.0-0-ntc-0+4.4.138-1
+Architecture: armhf
+Maintainer: Alex Kaplan <kaplan2539@gmail.com>
+Installed-Size: 275
+Provides: chip-mali-modules
+Priority: optional
+Section: utils
+Filename: pool/main/c/chip-mali/chip-mali-modules-4.4.138-chip_1.0-0-ntc-0+4.4.138-1_armhf.deb
+Size: 72672
+SHA256: 1bd448aeaf8982ad6ceb5dde12e3d23a5bad9d0c1e3c1706bb6a1be728b88c51
+SHA1: 0ceb6ac76b5bc5a9ca87db15caa3aa243351c8fc
+MD5sum: 3bf3a3cacf5c8d320ce922cfac02d661
+Description: Mali 400 MP GPU driver for C.H.I.P. for Linux (kernel 4.4.138-chip)
+ This driver provides hardware accelerated 3d rendering capabilities
+ to the C.H.I.P. computer.
+
+Package: linux-firmware-image-4.4.138-chip
+Source: linux-4.4.138-chip
+Version: 4.4.138-1
+Architecture: armhf
+Maintainer: Alex Kaplan <kaplan2539@gmail.com>
+Installed-Size: 522
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.138-chip/linux-firmware-image-4.4.138-chip_4.4.138-1_armhf.deb
+Size: 173852
+SHA256: 675ecdf23284c6bcd36b16bd14f1ddd7b6507f232136f3545a37ce6d9951c803
+SHA1: 9a5e43edb930ea46854fb93256afb05b09a01474
+MD5sum: ba6c2acbe0fb93edf5c561c1a6f84a7f
+Description: Linux kernel firmware, version 4.4.138-chip
+ This package contains firmware from the Linux kernel, version 4.4.138-chip.
+
+Package: linux-headers-4.4.138-chip
+Source: linux-4.4.138-chip
+Version: 4.4.138-1
+Architecture: armhf
+Maintainer: Alex Kaplan <kaplan2539@gmail.com>
+Installed-Size: 46272
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.138-chip/linux-headers-4.4.138-chip_4.4.138-1_armhf.deb
+Size: 7118334
+SHA256: 8159177e9f67a6d0e4760401ea963f476107b0e31a1a13304f5330e29f3b3e64
+SHA1: ce8b342db5e9bcaceacafba38a1e6faa7ad1574d
+MD5sum: 13c27e17151d15086e5461912b76472d
+Description: Linux kernel headers for 4.4.138-chip on armhf
+ This package provides kernel header files for 4.4.138-chip on armhf
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.4.138-chip
+Source: linux-4.4.138-chip
+Version: 4.4.138-1
+Architecture: armhf
+Maintainer: Alex Kaplan <kaplan2539@gmail.com>
+Installed-Size: 55943
+Suggests: linux-firmware-image-4.4.138-chip
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.138-chip
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.138-chip/linux-image-4.4.138-chip_4.4.138-1_armhf.deb
+Size: 14422380
+SHA256: 801832cd6ff21a3a3526890004c3f54a0666c4ed70cec2058824ba68cc197feb
+SHA1: e089bd107d01225bfa4f0edeb9ddad984650b44b
+MD5sum: 899d776f2b5f2a0f706b22adccc3df27
+Description: Linux kernel, version 4.4.138-chip
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.138-chip.
+
+Package: linux-libc-dev
+Source: linux-4.4.138-chip
+Version: 4.4.138-1
+Architecture: armhf
+Maintainer: Alex Kaplan <kaplan2539@gmail.com>
+Installed-Size: 4014
+Provides: linux-kernel-headers
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-4.4.138-chip/linux-libc-dev_4.4.138-1_armhf.deb
+Size: 795782
+SHA256: 5ea00fbb781eb7cbd02ecf27c9ff2720820e6f9f95ccd5711eaa19b89cdcadd8
+SHA1: 2420e37da7603b06bcacd728f89e714571ac0f1e
+MD5sum: 61781ba0ddd53488374a2c363becc11f
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: rtl8723bs-mp-driver-common
+Source: rtl8723bs-mp-driver
+Version: 4.4.2-17831.20160519-BTCOEX20151223-654a-ntc-1
+Architecture: all
+Maintainer: Alex Kaplan <kaplan2539@gmail.com>
+Installed-Size: 14
+Recommends: rtl8723bs-mp-driver-source, module-assistant
+Homepage: https://github.com/kaplan2539/RTL8723BS
+Priority: optional
+Section: main/kernel
+Filename: pool/main/r/rtl8723bs-mp-driver/rtl8723bs-mp-driver-common_4.4.2-17831.20160519-BTCOEX20151223-654a-ntc-1_all.deb
+Size: 2490
+SHA256: a744b1d37670b529be5c182a8ea98fe57e9505b7c46ec5b77a15fe18a912ce4e
+SHA1: 3b953e3bac76eb3c44124e93bfff6438f2005dbc
+MD5sum: 1474e25371ef85c717355cb3395b6e6b
+Description: Common files for the Realtek rtl8723bs Wireless driver
+ RTL8723BS MP Driver is a device driver for the Realtek IEEE 802.11b/g/n
+ rtl8723bs SDIO wireless network card.
+ .
+ This package contains the common files.
+
+Package: rtl8723bs-mp-driver-dkms
+Source: rtl8723bs-mp-driver
+Version: 4.4.2-17831.20160519-BTCOEX20151223-654a-ntc-1
+Architecture: all
+Maintainer: Alex Kaplan <kaplan2539@gmail.com>
+Installed-Size: 17
+Depends: dkms (>= 2.1.0.0)
+Breaks: rtl8723bs-mp-driver-common, rtl8723bs-mp-driver-modules (<< 4.3.16-13854.20150410-BTCOEX20150119-5844-ntc), rtl8723bs-mp-driver-source
+Replaces: rtl8723bs-mp-driver-common, rtl8723bs-mp-driver-modules (<< 4.3.16-13854.20150410-BTCOEX20150119-5844-ntc), rtl8723bs-mp-driver-source
+Provides: rtl8723bs-mp-driver-modules
+Homepage: https://github.com/kaplan2539/RTL8723BS
+Priority: optional
+Section: main/kernel
+Filename: pool/main/r/rtl8723bs-mp-driver/rtl8723bs-mp-driver-dkms_4.4.2-17831.20160519-BTCOEX20151223-654a-ntc-1_all.deb
+Size: 2856
+SHA256: 6c398258293f91a952dc7df14a9d8e519d2e8528981dd32b996efdde00979ed4
+SHA1: 0b8269258b1ea7404ebde3d3cd804224f41cf2ce
+MD5sum: e9ad9b9dfb30d2e41a311b55828de4b0
+Description: dkms source for the Realtek rtl8723bs Wireless driver
+ RTL8723BS MP Driver is a device driver for the Realtek IEEE 802.11b/g/n
+ rtl8723bs SDIO wireless network card.
+ .
+ This package provides the source code for the 8723bs kernel module.
+ Kernel source or headers are required to compile these modules.
+
+Package: rtl8723bs-mp-driver-modules-4.4.138-chip
+Source: rtl8723bs-mp-driver (4.4.2-17831.20160519-BTCOEX20151223-654a-ntc-1)
+Version: 4.4.2-17831.20160519-BTCOEX20151223-654a-ntc-1+4.4.138-1
+Architecture: all
+Maintainer: Alex Kaplan <kaplan2539@gmail.com>
+Installed-Size: 2075
+Depends: linux-modules-4.4.138-chip | linux-image-4.4.138-chip, rtl8723bs-mp-driver-common
+Provides: rtl8723bs-mp-driver-modules
+Homepage: https://github.com/kaplan2539/RTL8723BS
+Priority: optional
+Section: main/kernel
+Filename: pool/main/r/rtl8723bs-mp-driver/rtl8723bs-mp-driver-modules-4.4.138-chip_4.4.2-17831.20160519-BTCOEX20151223-654a-ntc-1+4.4.138-1_all.deb
+Size: 507462
+SHA256: 97cfcc8a2ddbac9064ffdd217c730a3b60776f630a5493972e9a4e6c338a0cf6
+SHA1: d128e55a94a8ad0dbb241799c61ce7307e15ed79
+MD5sum: 266116cf3d3f716bdcfb7aa725029503
+Description: rtl8723bs-mp-driver modules for Linux (kernel 4.4.138-chip)
+ RTL8723BS MP Driver is a device driver for the Realtek IEEE 802.11b/g/n
+ rtl8723bs SDIO wireless network card.
+ .
+ This package contains the set of loadable kernel modules for the
+ rtl8723bs-mp-driver wireless network driver.
+ .
+ This package contains the compiled kernel modules for 4.4.138-chip
+ .
+ If you have compiled your own kernel, you will most likely need to build your
+ own rtl8723bs-mp-driver-modules. The rtl8723bs-mp-driver-source package has
+ been provided for use with the Debian's module-assistant or kernel-package
+ utilities to produce a version of rtl8723bs-mp-driver-modules for your kernel.
+
+Package: rtl8723bs-mp-driver-source
+Source: rtl8723bs-mp-driver
+Version: 4.4.2-17831.20160519-BTCOEX20151223-654a-ntc-1
+Architecture: all
+Maintainer: Alex Kaplan <kaplan2539@gmail.com>
+Installed-Size: 11610
+Depends: debhelper (>= 8), make, xz-utils
+Recommends: module-assistant
+Homepage: https://github.com/kaplan2539/RTL8723BS
+Priority: optional
+Section: main/kernel
+Filename: pool/main/r/rtl8723bs-mp-driver/rtl8723bs-mp-driver-source_4.4.2-17831.20160519-BTCOEX20151223-654a-ntc-1_all.deb
+Size: 1387778
+SHA256: ab7ef11a97425ccdc1d3a5304a1a7f697b515236c55acdd4cf0f2a623c10f29d
+SHA1: f02e049453b0365ad95e08672a4580ca68de592c
+MD5sum: 52e5815169bab41a9f02cb1efc342856
+Description: Source for the Realtek rtl8723bs Wireless driver
+ RTL8723BS MP Driver is a device driver for the Realtek IEEE 802.11b/g/n
+ rtl8723bs SDIO wireless network card.
+ .
+ This package provides the source code for the 8723bs kernel module.
+ Kernel source or headers are required to compile these modules.
+

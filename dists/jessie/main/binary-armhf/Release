@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: Alex Kaplan
+Label: CHIP Kernel
+Architecture: armhf
+Description: Kernel and driver packages for NTC CHIP

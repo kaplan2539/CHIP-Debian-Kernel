@@ -1,0 +1,8 @@
+Origin: Alex Kaplan
+Label: CHIP Kernel
+Suite: stable
+Codename: jessie
+Architectures: armhf
+Components: main
+Description: Kernel and driver packages for NTC CHIP
+SignWith: default

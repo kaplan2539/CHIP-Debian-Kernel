@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Alex Kaplan
+Label: CHIP Kernel
+Suite: stable
+Codename: jessie
+Date: Mon, 02 Jul 2018 05:42:03 UTC
+Architectures: armhf
+Components: main
+Description: Kernel and driver packages for NTC CHIP
+MD5Sum:
+ 512cc01c9fc6bbf8b7b192cbd5a73aa6 8188 main/binary-armhf/Packages
+ bb3308d252625ed95c8f9bcefcc85fb3 2313 main/binary-armhf/Packages.gz
+ a7af4abb831a07326af2f930e0e11681 144 main/binary-armhf/Release
+SHA1:
+ a2d71dbeb9ac6ec4ed0af0f5822ad9b580bb8fb8 8188 main/binary-armhf/Packages
+ 69685c4f9799af16b87dc24b80f8d27b5485435a 2313 main/binary-armhf/Packages.gz
+ 91de660f8e344553a5faa31bf0c8df395a62649b 144 main/binary-armhf/Release
+SHA256:
+ 14dbd8816479b1728399e5ee348f2cda749260e7e92b762150787db59de97029 8188 main/binary-armhf/Packages
+ 5b7dbbf444b3c959d064c180239b2681aeec4fb045d3839c88cb846cd4c286db 2313 main/binary-armhf/Packages.gz
+ 497659d161f61ef30f6612e2d65cfc227929307eaa2624cfaae01fa5b9f30218 144 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEExxi7nQl+Sn8k3bYLHwlStC8FJqcFAls5u00ACgkQHwlStC8F
+Jqe/IQ/+PcckFIOr6PDft37Jb+Jv/w76ZiEFVsTa/mQbeRWCCQBJIu4ijLA/dLO7
+ly/NodBjOgXAwmimPBBSVqbnDHlxsECEvHe8mVW4ij55/C9Ff9zgtC2TlfUrGRgx
+tH9ORxqy8OJthCZjUFUkM9pj2+1ILPJPj3kC3pmmojJo66WJvkCyXUgRCL2VKwnY
+4Y02r8miKbMiyxGdQbMvvn+sUmjYgz4Jm0odgPaf4bho2E99BLOvBGTkZYGes3XG
+jJJ4EJ9eMGtv3HJOID1GMrs9cp+YF1dGJDXsLfBBFFIH4UQiBVsh0fcaRi5pxAwk
+z2cgYFlMf8OB+joDnrWmm2J2Z1xusPNv9NJshwxyfOIq+HpIei8SH/j7T4tuyGLS
+KJXgwgfTxl6FP2li7a7FLX/Bspz9+ZwHe1eJW3ADZ2nVrQLyyv2NjpRbs9T36M/8
+9GBxhVU2aN9CXzbIulc+ovh2r8rW5QhPUcMxd3owLiWfhdD1IfkTOhTI7yMvwVnK
+pRIyUuyp+6RXjQjFiuBfs22yaGma1hTOl9JgmjPvlqExMjapN0KHedYIb3gqCEOs
+fKisTIkWukJdHI91fNnC2MOqNxeB406DNNGMnSoZ6iySZVncWgP279/UemszoZ90
+M8TiZj+9CmBiXN0a0oNPV1HriBSZ543MxNZqzEjywMbcTwjBdfw=
+=4JdJ
+-----END PGP SIGNATURE-----
