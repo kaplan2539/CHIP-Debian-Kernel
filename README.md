@@ -6,6 +6,8 @@ This is an un-official Debian 8.0 (Jessie) repository providing Linux kernel, Wi
 
 Use on your own risk.
 
+```*WARNING*: Do not install on CHIPs (and PocketCHIPs) running a 4.3 kernel. This will make your CHIP (or PocketCHIP) unbootable, as the UBI/UBIFS format is not compatible between kernel 4.4 and 4.3 ```
+
 ## Sources
 
 Linux source: https://github.com/kaplan2539/ntc-linux
